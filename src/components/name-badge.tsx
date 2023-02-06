@@ -1,10 +1,10 @@
 const addTwo = (n:number): number => n + 2
 
-const NameBadge = ({ name }: {name: string}): JSX.Element => {
+const NameBadge = ({ name, greeting }: {name: string, greeting: string}): JSX.Element => {
   return (
     <section className="badge">
       <header className="badge-header">
-        <h1 className="text-5xl">HELLO</h1>
+        <h1 className="text-5xl">{greeting}</h1>
         <p>My name is…</p>
       </header>
       <div className="badge-body">
