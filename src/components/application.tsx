@@ -1,9 +1,9 @@
 // import ControlPanel from './controls';
-import NameBadge from './name-badge';
+import Counter from './counter';
 
 const Application = () => (
   <main className="application">
-    <NameBadge name="Anastasia" greeting="Heya"/>
+    <Counter/>
   </main>
 );
 
